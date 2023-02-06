@@ -1,4 +1,4 @@
-season,round,url,raceName,Circuit,date,champion name,time
+season,round,url,raceName,Circuit,date,champion_name,time
 1950,1,http://en.wikipedia.org/wiki/1950_British_Grand_Prix,British Grand Prix,"{'circuitId': 'silverstone', 'url': 'http://en.wikipedia.org/wiki/Silverstone_Circuit', 'circuitName': 'Silverstone Circuit', 'Location': {'lat': '52.0786', 'long': '-1.01694', 'locality': 'Silverstone', 'country': 'UK'}}",1950-05-13,Nino Farina,
 1950,2,http://en.wikipedia.org/wiki/1950_Monaco_Grand_Prix,Monaco Grand Prix,"{'circuitId': 'monaco', 'url': 'http://en.wikipedia.org/wiki/Circuit_de_Monaco', 'circuitName': 'Circuit de Monaco', 'Location': {'lat': '43.7347', 'long': '7.42056', 'locality': 'Monte-Carlo', 'country': 'Monaco'}}",1950-05-21,Juan Manuel Fangio,
 1950,3,http://en.wikipedia.org/wiki/1950_Indianapolis_500,Indianapolis 500,"{'circuitId': 'indianapolis', 'url': 'http://en.wikipedia.org/wiki/Indianapolis_Motor_Speedway', 'circuitName': 'Indianapolis Motor Speedway', 'Location': {'lat': '39.795', 'long': '-86.2347', 'locality': 'Indianapolis', 'country': 'USA'}}",1950-05-30,Johnnie  Parsons,

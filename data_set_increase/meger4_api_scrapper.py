@@ -12,9 +12,9 @@ def merge_content(api_results, data_championships):
             race_date = race_info["date"]
             if(race_date in data_championships):
                 champion_name = data_championships[race_date]
-                race_info["champion name"]=champion_name
+                race_info["champion_name"]=champion_name
             else:
-                race_info["champion name"]="unavailable"
+                race_info["champion_name"]="unavailable"
             
 
     return api_results
