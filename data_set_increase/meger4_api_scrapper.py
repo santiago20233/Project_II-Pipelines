@@ -1,7 +1,7 @@
 import pandas as pd
 from site_scrapper import process_championships
 from api_extractor import consult_api
-from utils import clean_directory
+from cleaner import clean_directory
 
 def merge_content(api_results, data_championships):
     

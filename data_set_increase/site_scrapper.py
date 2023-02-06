@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import requests as re
 
-
+#Function to change the dates to the API format: (YYYY/MM/DD)
 def mapper(old_date):
     
     new_dates_map = {
@@ -25,6 +25,8 @@ def mapper(old_date):
 
     return f"{year}-{month}-{day}"
 
+
+# Function to find Name + Surname of each race winner
 def find_champions(page_name):
     data = {}
     with open(page_name) as fp:
