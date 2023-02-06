@@ -2,7 +2,7 @@ import requests
 
 def consult_api():
     all_seasons = []
-    for year in range(1950,2020):
+    for year in range(1950,2023):
 
         url = f"http://ergast.com/api/f1/{year}.json"
 

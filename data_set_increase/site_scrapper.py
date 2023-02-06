@@ -69,7 +69,7 @@ def merge(dict1, dict2):
 
 def process_championships():
     response = {}
-    for year in range(1950, 2022):
+    for year in range(1950, 2023):
         data_year = process_champion_page(year)
         merge(data_year, response)
 
