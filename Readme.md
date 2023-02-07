@@ -6,9 +6,7 @@
 
 This project is a demonstration of the potential of web scraping as a tool for data enrichment. The project utilizes data extracted from an API and data obtained from web scraping to analyze the performance of drivers in the Formula 1 racing series.
 
-The motivation for the project lies in the recognition that APIs often provide limited data, which can be complemented and enriched by data obtained through web scraping. This project showcases the process of collecting and integrating data from both sources to create a comprehensive and robust dataset.
-
-The data collected and analyzed in this project includes information on Formula 1 races, drivers, and their performance, with a focus on the number of wins and circuits. The project also showcases the use of various data manipulation techniques and visualization tools, including pandas and Plotly, to create meaningful insights and visualizations from the data.
+The motivation for the project is that APIs often provide limited data, which can be complemented by data obtained through web scraping. This project shows the process of collecting and integrating data from both sources to create a comprehensive and robust dataset.
 
 Overall, this project serves as an example of the value of data integration and the power of web scraping as a tool for data enrichment.
 
@@ -18,10 +16,10 @@ Overall, this project serves as an example of the value of data integration and 
 The first step in this process involved extracting data from the API. The API extractor file contains the function used to gather all relevant information regarding circuits and race dates, covering all Formula One races since the beginning of the sport until 2021.
 
 ## 2. Web Scraping
-Secondly, the web scraping aspect of the project was a meticulous process, as the official Formula One website only displays information for one season at the time. Despite this challenge, every single season with its corresponding date and driver name was obtained through web scraping. By linking both the API and web scraping data through the date, a more comprehensive understanding of the sport and its races was achieved. On the site_scrapper file there are six functions relating to how this was done. From changing dates to the api's format, to finding the name and surname of the driver for each race. It also shows how for every different year a new web scrape was done to find all the relevant data. After that, all data from different seasons is merged to create one file. All of these functions are merged into one called process_championship to make it easier to use. 
+Secondly, the web scraping aspect of the project was a difficult process, as the official Formula One website only displays information for one season at the time. Every single season with its corresponding date and driver name was obtained through web scraping.  On the site_scrapper file there are six functions relating to how this was done. From changing dates to the api's format, to finding the name and surname of the driver for each race. It also shows how for every different year a new web scrape was done to find all the relevant data. After that, all data from different seasons is merged to create one file. All of these functions are merged into one called process_championship to make it easier to use. 
 
 ## 3. Merging Datasets
-In the third step, the merger4_api_scrapper file takes both the API and webscraped datasets and merges them into a single, comprehensive dataset. The key to this process is using the date of the races as a reference point to attribute the race winners to their respective races. By doing so, we are able to combine the rich circuit and date information from the API with the winning driver information from the webscraping to create a unified dataset that can be used for further analysis and insights.
+In the third step, the merger4_api_scrapper file takes both the API and webscraped datasets and merges them into a single dataset. The key to this process is using the date of the races as a reference point to set the race winners to their won races. By doing so, we are able to combine the circuit and date information from the API with the winning driver information from the webscraping.
 
 ## 4. Cleaning up
 In the final stage of the extracting and cleaning stage, the functions created in the previous steps are utilized in the project.ipynb notebook to obtain the full dataset. After the dataset is full and clean it is exported as clean.csv for further analysis.
